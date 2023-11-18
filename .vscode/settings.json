@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "sort.h": "c"
+        "sort.h": "c",
+        "type_traits": "c",
+        "random": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
