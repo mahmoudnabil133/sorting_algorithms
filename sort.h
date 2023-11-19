@@ -29,6 +29,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 int partetion(int *array, int low, int high, int n);
 void quick_sort_helper(int *array, int low, int high, int n);
-
+void heap_sort(int *array, size_t size);
+void heapfy(int *arr, int n, int size, int i);
 
 #endif
