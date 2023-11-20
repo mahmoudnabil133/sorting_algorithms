@@ -31,5 +31,7 @@ int partetion(int *array, int low, int high, int n);
 void quick_sort_helper(int *array, int low, int high, int n);
 void heap_sort(int *array, size_t size);
 void heapfy(int *arr, int n, int size, int i);
+void swap_dll(listint_t *a, listint_t *b);
+void swap_head(listint_t *a, listint_t *b);
 
 #endif

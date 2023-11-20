@@ -36,6 +36,8 @@ void swap_head(listint_t *a, listint_t *b)
 void insertion_sort_list(listint_t **list)
 {listint_t *current, *next_itr;
 
+	if (!*list)
+		return;
 	current  = (*list)->next;
 	while (current != NULL)
 	{
