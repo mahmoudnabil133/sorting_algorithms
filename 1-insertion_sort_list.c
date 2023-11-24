@@ -61,7 +61,7 @@ void insertion_sort_list(listint_t **list)
 				print_list(*list);
 
 			}
-			else if (current->next == NULL && current->rprev->prev == NULL)
+			else if (current->next == NULL && current->prev->prev == NULL)
 			{
 				current->next = current->prev;
 				current->prev = NULL;
