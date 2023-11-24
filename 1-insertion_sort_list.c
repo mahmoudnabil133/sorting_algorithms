@@ -61,6 +61,13 @@ void insertion_sort_list(listint_t **list)
 				print_list(*list);
 
 			}
+			else if (current->next == NULL && current->rprev->prev == NULL)
+			{
+				current->next = current->prev;
+				current->prev = NULL;
+				current->next->prev = current;
+				current->next->next = NULL;
+			}
 			swap_dll(current, current->prev);
 			print_list(*list);
 		}
